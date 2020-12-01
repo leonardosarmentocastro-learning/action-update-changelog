@@ -15,8 +15,9 @@ inputs:
 runs:
   using: 'composite' # enable usage of multiple commands. See https://docs.github.com/en/free-pro-team@latest/actions/creating-actions/creating-a-composite-run-steps-action
   steps:
-    - run: >
-      git config --local user.email "action@github.com"
-      git config --local user.name "GitHub action"
-      git checkout ${{ inputs.branch }}
+    - run: git config --local user.email "action@github.com"
+    shell: bash
+    - run: git config --local user.name "GitHub action"
+    shell: bash
+    - run: git checkout ${{ inputs.branch }}
     shell: bash
