@@ -1,0 +1,24 @@
+{
+  "name": "learning-action-update-changelog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardosarmentocastro-learning/action-update-changelog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardosarmentocastro-learning/action-update-changelog/issues"
+  },
+  "homepage": "https://github.com/leonardosarmentocastro-learning/action-update-changelog#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
+}
