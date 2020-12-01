@@ -17,7 +17,9 @@ runs:
   steps:
     - run: echo "branch ${{ inputs.branch }}"
       shell: bash
-    - run: echo "version ${{ inputs.branch }}"
+    - run: echo "version ${{ inputs.version }}"
+      shell: bash
+    - run: git --help
       shell: bash
     # - run: git config --local user.email "action@github.com"
     #   shell: bash
