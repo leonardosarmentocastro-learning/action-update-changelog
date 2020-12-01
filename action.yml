@@ -21,6 +21,8 @@ runs:
       shell: bash
     - run: git --help
       shell: bash
+    - run: git log
+      shell: bash
     # - run: git config --local user.email "action@github.com"
     #   shell: bash
     # - run: git config --local user.name "GitHub action"
